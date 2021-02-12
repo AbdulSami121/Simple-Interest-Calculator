@@ -5,5 +5,5 @@ function compute()
 }
 function showrate(x)
 {
-    document.getElementById("result").innerText = x;
+    document.getElementById("enteredRate").innerText = x;
 }
