@@ -18,7 +18,6 @@ function compute()
 // Function determines interest earned an enters text under id=result
 {
     var principal = parseFloat(document.getElementById("principal").value,10);
-//    var rate = parseFloat(document.getElementById("rate").value,10);
     var rate = parseFloat(document.getElementById("enteredrate").value,10);
     var years = parseFloat(document.getElementById("years").value,10);
     var interest = principal * years * rate / 100;
